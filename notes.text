@@ -1,0 +1,43 @@
+Tags to be used mostly :
+<div></div>
+<form action=""></form>
+h1 - <h6></h6>
+<a href=""></a>
+<br>
+<button></button>
+<img src="" alt="">
+<input type="text">
+<span></span>
+<script></script>
+
+
+blocklevel vs inline 
+
+containers = > div and <span></span>
+
+semantic vs non-semantic => p tag vs article tag : p is non-semantic and article is semantic. using semantic would add semantic value to the website. Semantic tags are more specific.
+
+Semantic tags are a good way indicate what kind of content is stored within the HTML element, and can be a good what to organize your HTML
+
+Principal : SEparation of Concern (reason why css should be in differnt file)
+
+css has the weitage based on where and how it is used. 
+    inline style : 1000
+    id : 100
+    class : 10
+    element : 1  
+
+ psuedo-class selectors : 
+    hover  : h1:hover 
+    first-child 
+    last-child
+
+important <tag> 
+!important is a trump card that you should rarely use! 
+If your CSS is organized well you should never need to use !important
+
+Padding is the background of any element. Margin is the space around the element. Use margin to space out hte elements.
+
+
+
+FLEXBox : 

@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Amazon-Ember";
+    src: url("/CT_WorkSpace/fonts/amazon-ember-cufonfonts/Amazon\ Ember\ Cd\ RC\ Thin.ttf") format("amazon-ember");
+    src: url("/CT_WorkSpace/fonts/amazon-ember-cufonfonts/Amazon\ Ember\ Cd\ RC\ Thin.ttf") format("amazon-ember");
+    src: url("/CT_WorkSpace/fonts/amazon-ember-cufonfonts/Amazon\ Ember\ Cd\ RC\ Thin.ttf") format("amazon-ember");
+}
+
+*{
+    font-family: "Amazon-Ember";
+}
+.logo{
+    width: 150x;
+    height: 50px; 
+    align-items: center;
+}
+
+.gold-btn{
+    background-color: goldenrod;
+    width: 100%;
+}
+
+.silver-btn{
+    background-color: silver
+    width: 100%;
+}

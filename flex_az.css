@@ -1,0 +1,21 @@
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.box{
+    background-color: whitesmoke;
+    padding: 20px;
+    margin : 10px; 
+
+}
+.logo-box{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flex-space-around{
+    justify-content: space-around;
+}
