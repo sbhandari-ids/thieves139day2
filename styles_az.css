@@ -2,7 +2,6 @@
     font-family: "Amazon-Ember";
     src: url("/CT_WorkSpace/fonts/amazon-ember-cufonfonts/Amazon\ Ember\ Cd\ RC\ Thin.ttf") format("amazon-ember");
     src: url("/CT_WorkSpace/fonts/amazon-ember-cufonfonts/Amazon\ Ember\ Cd\ RC\ Thin.ttf") format("amazon-ember");
-    src: url("/CT_WorkSpace/fonts/amazon-ember-cufonfonts/Amazon\ Ember\ Cd\ RC\ Thin.ttf") format("amazon-ember");
 }
 *{
     font-family: "Amazon-Ember";
@@ -15,10 +14,40 @@
 
 .gold-btn{
     background-color: goldenrod;
-    width: 100%;
+    width: 100%; 
 }
 
 .silver-btn{
     background-color: silver;
     width: 100%;
+}
+.align-left{
+    text-align: left;
+}
+.align-center{
+    text-align: center;
+}
+
+.align-right{
+    text-align: right;
+}
+button{
+    height: 40px;
+    width: 80%;
+    font-size: medium;
+}
+input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(76, 69, 69);
+}
+
+a:link{
+    text-decoration: none;  
+}
+a:visited{
+    text-decoration: none;
+}
+hr{
+    margin-top: 10px; 
 }
