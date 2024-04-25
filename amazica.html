@@ -4,59 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles_az.css"> 
-    <link rel="stylesheet" href="flex_az.css"> 
     <title>Sign In - Amazica </title>
 </head>
 <body>
-    <header> 
-        <div class="box align-center"> <img class="logo" src="img/amazicalLogotrimmed.jpg"> </div>
-    </header>
 
     <div class="flexbox">
+        
 
-         <div class="box"></div>  
-         <div class ="box flex-contentbox">
-                <div class="box"> <h1> Sign In </h1> </div>
-                <div class="box"> <label for = "email-ph"> Email(phone or mobile accounts)</label></div>
-                <div class="box"> <input type = "text" id="email-ph" name="email-ph">  </div>
-                <div class="box"> <label for = "password"> Password </label> <label for="forgot-pwd" class="align-right" style="text-align:right;"><a href="#">&nbsp;&nbsp;Forgot Password</a></label></div>
-                <div class="box"> <input type = "password" id="password" name="password">  </div>
+        <div class="box align-center"> <img class="logo" src="img/amazicalLogotrimmed.jpg"> </div>
+         <div class ="flexx-contentbox">
+            <div class ="flex-contentbox"> 
 
-                <div class="box"> <button type = "sumbit" id="contd-btn" class="gold-btn"> Continue </button></div>
+                <div class="box signin"> Sign In </div>
+                <div class="box"> <label for = "email-ph"> Email(or mobile phone number)</label>
+                <input type = "text" id="email-ph" name="email-ph">  </div>
+                <div class="box"> <label for = "password"> Password </label> <a href="#" class="align-right">Forgot Password</a>
+                <input type = "password" id="password" name="password">  </div>
+
+                <div class="box"> <button type = "sumbit" id="contd-btn" class="btn gold-btn"> Continue </button></div>
                
-               <div class="box"> <a href="#" class="align-left"> ▶ Need Help?</a>
-                    <br>
-                    <br>    
+               <div class="box"> <a href="#" class="need-help align-left"> ▶ Need Help?</a>
+                      
                 </div>
-                <div class ="flexbox-col">
-                    <div class="box flexbox-item1"> <hr></div>
-                    <div class="box flexbox-item2">New to Amazica?</div>
-                    <div class="box flexbox-item1"> <hr></div>
-            </div>
 
-                <div class="box"> <button type = "sumbit" id="create-acct-btn" class="silver-btn"> Create Your Amazica Account </button></div>
-
-
-
-
-
-            </div> 
-            <div class ="box"></div>
-
+                <hr>
+                <div class="box"><strong> Buying for work? </strong><br/>
+                 <a href= "#" id="shop-business" class=""> Shop on Amazica Business </a>
+                </div>
+            </div>     
+                
+            <div class="flexbox"> 
+                <div class="box"><span> New to Amazica? </span></div>
+             <button type = "sumbit" id="create-acct-btn" class="btn silver-btn"> Create Your Amazica Account </button>
+                </div>
+     
+        </div>
     </div>
 
+    <div>
+        <footer>
+            <hr> 
+            <div class ="flexbox-col">
+            <div class="box"> <a href="#">Conditions of use</a></div>
+            <div class="box"><a href="#">Privacy Policy</a> </div>
+            <div class="box"> <a href=#">Help </a></div>
+            </div>
 
+            <div><p class="align-center"> &#169; 2024 amazica for CodingTemple</p></div>
 
-    <footer>
-        <hr width="100%"> 
-        <div class ="flexbox">
-        <div class="box"> <a href="#">Conditions of use</a></div>
-        <div class="box"><a href="#">Privacy Policy</a> </div>
-        <div class="box"> <a href=#">Help </a></div>
-        </div>
+        </footer> 
+    </div>
 
-        <div><p class="align-center"> &#169; 2024 amazica for CodingTemple</p></div>
-
-</footer> 
 </body>
 </html>

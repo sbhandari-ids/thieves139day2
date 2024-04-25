@@ -11,15 +11,21 @@
     height: 50px; 
     align-items: center;
 }
-
-.gold-btn{
-    background-color: goldenrod;
+.btn{
     width: 100%; 
+    border-radius: 10px; 
+    height: 40px;
+
+    font-size: medium;
+    
+}
+.gold-btn{
+    background-color: gold;
 }
 
 .silver-btn{
     background-color: silver;
-    width: 100%;
+    margin-top: 10px;
 }
 .align-left{
     text-align: left;
@@ -29,25 +35,87 @@
 }
 
 .align-right{
-    text-align: right;
+    margin-left: 130px;
 }
-button{
-    height: 40px;
-    width: 80%;
-    font-size: medium;
-}
+
 input{
     width: 100%;
-    height: 40px;
-    border: 1px solid rgb(76, 69, 69);
+    height: 30px;
+    border: 1px solid rgb(201, 196, 196);
+    border-radius: 10px;
 }
 
 a:link{
-    text-decoration: none;  
+    text-decoration: none; 
+    color: rgb(14, 4, 146)
 }
 a:visited{
     text-decoration: none;
+    color: rgb(14, 4, 146)
 }
 hr{
     margin-top: 10px; 
+}
+.signin{
+    font-size:xx-large;
+    font-weight: 600;
+   
+}
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 15px;
+
+}
+.flexbox-col{
+    display: flex;
+    flex-direction: col;
+    justify-content:center;
+    align-items: center;
+
+}
+.flex-contentbox{
+    width: 350px;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid rgb(201, 196, 196);
+    background-color: white;
+    border-radius: 10px;    
+}
+.flex-contentbox1{
+    width: 350px;
+    margin: 20px;
+    border: 1px solid rgb(253, 253, 253);
+    background-color: white;
+    border-radius: 10px;    
+}
+.box{
+    background-color:white; 
+    padding: 5px;
+    margin : 10px;
+
+}
+
+.need-help{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+span:after,
+span:before{
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 1px;
+    background-color: rgb(201,196,196); 
+    vertical-align: middle;
+
+}
+
+
+footer{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
